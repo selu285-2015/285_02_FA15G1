@@ -5,13 +5,16 @@
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background-color: cornflowerblue;
+    /*background-color: green;*/
+    background-image: url("../assets/patternbg_gray.png");
+
 }
 
 #webview-iframe {
     width: 100%;
     height: 100vh;
     margin-bottom: 57px;
+
 }
 
 #webview-loadScreen {
@@ -39,6 +42,7 @@
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
+
 }
 
 #wrapper.webview-toggled #webview-wrapper {
@@ -48,4 +52,9 @@
 .scroll-wrapper {
     -webkit-overflow-scrolling: touch;
     overflow-y: scroll;
+}
+
+#load-building-icon {
+    display:block;
+    margin:auto;
 }

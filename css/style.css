@@ -160,9 +160,10 @@ body {
     font-size: 1.2em;
     font-style: italic;
     border-bottom: none;
+
 }
 
-#desktop-link a {
+#sidebar-desktop-link a {
     color: dimgray;
 }
 
@@ -215,4 +216,13 @@ iframe {
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#grid-button-wrapper a {
+    color: inherit;
 }
