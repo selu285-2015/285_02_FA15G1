@@ -1,0 +1,142 @@
+html, body {
+    font-family: "Myriad Pro", "Open Sans", arial, Helvetica;
+}
+
+.container {
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.col-lg-4 {
+    border: 1px solid rgba(0,81,40,1);
+    padding: 16px 20px 16px 20px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-main {
+    background-color: rgba(240, 200, 3, 0.9);
+}
+
+.btn-main:hover {
+    background-color: white;
+}
+
+.btn-footer {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 2em;
+}
+
+
+.navbar {
+    border-radius: 0;
+    background-color: #333333;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand {
+    float:none;
+    font-size: 5.5vw;
+}
+
+.btn-main:active {
+    background-color: lightgrey;
+}
+
+#main-content-wrapper {
+    background-color: #005100;
+    width: 100%;
+    padding-top: 0;
+}
+
+#grid-button-wrapper {
+    z-index: 3;
+    width: 100%;
+    position: fixed;
+    bottom: 60px;
+    -webkit-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.25);
+}
+
+.btn-text {
+    font-size: 3.5vw;
+}
+
+.btn-text span {
+    font-size: 8vw;
+    color: #005100;
+}
+
+
+#top-navbar {
+    margin-bottom: 0;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.35);
+}
+
+#background {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: -57px;
+}
+
+#background-img {
+    z-index: 0;
+    min-width: 100%;
+}
+
+#bottom-navbar {
+    z-index: 999;
+    -webkit-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.25);
+}
+
+iframe {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+
+.hidden {
+    display: none;
+}
+
+#grid-button-wrapper a {
+    color: inherit;
+}
+
+
+@media (max-height: 567px) {
+    .col-lg-4 {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .btn-text span {
+        font-size: 5vw;
+        color: #005100;
+    }
+
+}
+

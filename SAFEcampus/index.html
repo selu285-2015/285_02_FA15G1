@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="//www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>SAFEcampus</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/simple-sidebar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/webview.css">
+    <link rel="apple-touch-icon" href="assets/Icon.png"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+
+</head>
+<body>
+    <script type='application/javascript' src='js/fastclick.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+    <!-- Wrapper for entire Page -->
+    <div id="wrapper">
+
+        <div id="sidebar-wrapper">
+
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand" id="sidebar-title">
+                    <a href="" style="color:white;">
+                        <strong>SAFEcampus</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="//www.southeastern.edu/about/safe_campus/index.html">
+                        Safe Campus
+                    </a>
+                </li>
+                <li>
+                    <a href="//www.southeastern.edu/about/safe_campus/influenza/index.html">
+                        Influenza Safety
+                    </a>
+                </li>
+                <li>
+                    <a href="//www.southeastern.edu/about/safe_campus/hurricane/index.html">
+                        Hurricane Safety
+                    </a>
+                </li>
+                <li>
+                    <a href="//www.southeastern.edu/admin/police/">
+                        University Police Department
+                    </a>
+                </li>
+                <li>
+                    <a href="//www.southeastern.edu/admin/safety/">
+                        Safety & Hazardous Materials
+                    </a>
+                </li>
+                <li>
+                    <a href="//www.southeastern.edu/admin/counseling/index.html">
+                        University Counseling Center
+                    </a>
+                </li>
+                <li>
+                    <a href="//www.southeastern.edu/admin/health_ctr/index.html">
+                        Health Center
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div id="page-content-wrapper">
+
+            <nav id="top-navbar" class="navbar navbar-inverse navbar-fixed-header" style="border: none;">
+                <div class="container navbar-header">
+                    <span class="text-center"><strong>SOUTHEASTERN LOUISIANA UNIVERSITY</strong></span>
+                </div>
+            </nav>
+
+            <!-- Page View Wrapper -->
+            <div id="main-content-wrapper" class="container">
+
+                <!-- Background Image -->
+                <div id="background">
+                    <img src="assets/background_safecampus.png" class="img-responsive" id="background-img">
+                </div>
+
+                <div id="grid-button-wrapper" class="container open">
+                    <div class="row">
+                        <a href="">
+                            <div class="btn btn-main col-lg-4 col-md-4 col-sm-4 col-xs-4 btn-text">
+                                <p>Active<br>Shooter,<br>Stabbing</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="btn btn-main col-lg-4 col-md-4 col-sm-4 col-xs-4 btn-text">
+                                <p>Bomb<br>Threat</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="btn btn-main col-lg-4 col-md-4 col-sm-4 col-xs-4 btn-text">
+                                <p>Fire,<br>Explosions</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="">
+                            <div class="btn btn-main col-lg-4 col-md-4 col-sm-4 col-xs-4 btn-text">
+                                <p>Intruder</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="btn btn-main col-lg-4 col-md-4 col-sm-4 col-xs-4 btn-text">
+                                <p>Lockdown,<br>Shelter,<br>Evacuate</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="btn btn-main col-lg-4 col-md-4 col-sm-4 col-xs-4 btn-text">
+                                <p>Physical<br>Injury</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a href="#">
+                            <div class="btn btn-main col-lg-4 col-md-4 col-sm-4 col-xs-4 btn-text">
+                                <p>Sexual<br>Assault</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="btn btn-main col-lg-4 col-md-4 col-sm-4 col-xs-4 btn-text">
+                                <p>Weapons<br>On Campus</p>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="btn btn-main col-lg-4 col-md-4 col-sm-4 col-xs-4 btn-text">
+                                <p>Weather<br>Emergency</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Page View Wrapper -->
+
+            <!-- Bottom Navigation Bar -->
+            <nav id="bottom-navbar" class="navbar navbar-inverse navbar-fixed-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <button id="sidebar-menu-toggle-button" class="btn btn-default btn-lg btn-footer" type="button">
+                                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                        <div class="col-xs-3">
+                            <button id="home-menu-button" class="btn btn-default btn-lg btn-footer" type="button">
+                                <span class="glyphicon" aria-hidden="true">
+                                    <i class="fa fa-home" style="font-size: 1.3em;"></i>
+                                </span>
+                            </button>
+                        </div>
+                        <div class="col-xs-3">
+                            <button id="back-button" class="btn btn-default btn-lg btn-footer hidden" type="button">
+                                <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
+                            </button>
+                            <!-- This button is a <a> rather than a bootstrap <button> to add phone call capability -->
+                            <a id="phone-button" class="btn btn-default btn-lg btn-footer" href="tel:985-549-2222">
+                                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <button id="forward-button" class="btn btn-default btn-lg btn-footer hidden" type="button">
+                                <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                            </button>
+                            <button id="webview-toggle-button" class="btn btn-default btn-lg btn-footer" type="button">
+                                <span class="glyphicon" aria-hidden="true">
+                                    <i class="fa fa-desktop"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- End of Bottom Navigation Bar -->
+        </div>
+
+        <!-- When the sidebar is toggled an invisible, clickable div is rendered to allow
+        the untoggling of the sidebar by clicking blank space to the right -->
+        <div class="veil hidden"></div>
+
+        <div id="webview-wrapper">
+            <div class="load-content">
+                <img src="assets/cross.png" style="height:175px; width: 175px;">
+                <p style="padding-top: 10px; font-weight: 600; color: #6d6e71; font-size: 2.4em;"><span style="font-weight: 800; color: #231f20;">SAFE</span>campus</p>
+            </div>
+            <div class="loader">
+                <div class="load-content">
+                    <img src="assets/cross.png" style="height:175px; width: 175px;">
+                    <p style="padding-top: 10px; font-weight: 600; color: #6d6e71; font-size: 2.4em;"><span style="font-weight: 800; color: #231f20;">SAFE</span>campus</p>
+                </div>
+            </div>
+            <div class="scroll-wrapper">
+                <iframe id="webview-iframe" name="webview-iframe" scrolling="yes" target="_self"></iframe>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/primary.js"></script>
+</body>
+</html>

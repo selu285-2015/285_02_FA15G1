@@ -1,0 +1,148 @@
+html, body {
+    font-family: "Myriad Pro", "Open Sans", arial, Helvetica;
+}
+
+.container {
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+.col-lg-4 {
+    border: 1px solid white;
+    height: 80px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-text {
+    font-size: 4vw;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.btn-text p {
+    margin: 0 auto;
+}
+
+.btn-main {
+    background-color: rgb(254, 219, 0);
+}
+
+.btn-main:hover {
+    background-color: white;
+}
+
+.btn-footer {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-size: 2em;
+}
+
+
+.navbar {
+    border: none;
+    border-radius: 0;
+    background-color: #333333;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.navbar-brand {
+    float:none;
+    font-size: 1em;
+}
+
+.btn-main:active {
+    background-color: lightgrey;
+}
+
+#main-content-wrapper {
+    background-color: #005100;
+    width: 100%;
+    padding-top: 0;
+}
+
+#grid-button-wrapper {
+    border: 1px solid white;
+    z-index: 3;
+    width: 100%;
+    position: fixed;
+    bottom: 60px;
+}
+
+#grid-button-wrapper a {
+
+    color: #10803E;
+}
+
+#top-navbar {
+    color: white;
+    margin-bottom: 0;
+}
+
+#background {
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: -57px;
+}
+
+#background-img {
+    z-index: 0;
+    min-width: 100%;
+}
+
+#bottom-navbar {
+    z-index: 999;
+}
+
+iframe {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-height: 1280px) {
+    .col-lg-4 {
+        height: 14vh;
+    }
+}
+
+@media screen and (max-height: 659px) {
+    .btn-text {
+        font-size: 2vh;
+    }
+
+    .col-lg-4 {
+        height: 12vh;
+    }
+}
+
+@media screen and (max-height: 580px) {
+    .col-lg-4 {
+        height: 10vh;
+    }
+}

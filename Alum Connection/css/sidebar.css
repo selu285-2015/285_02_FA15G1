@@ -1,0 +1,121 @@
+#sidebar-wrapper {
+    z-index: 999;
+    position: fixed;
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+    background: #000;
+    transform: translateX(-100%);
+
+    background: #333333; /* Old browsers */
+    background: -moz-linear-gradient(left, #333333 67%, #2d2d2d 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(67%,#333333), color-stop(100%,#2d2d2d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #333333 67%,#2d2d2d 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #333333 67%,#2d2d2d 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #333333 67%,#2d2d2d 100%); /* IE10+ */
+    background: linear-gradient(to right, #333333 67%,#2d2d2d 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#2d2d2d',GradientType=1 );
+
+    -webkit-box-shadow: inset -6px 0px 20px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: inset -6px 0px 20px 0px rgba(0,0,0,0.35);
+    box-shadow: inset -6px 0px 20px 0px rgba(0,0,0,0.35);
+}
+
+.veil {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+}
+
+#sidebar-title {
+    border-bottom: none;
+}
+
+#sidebar-desktop-link {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+#sidebar-desktop-link a {
+    color: dimgray;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-bottom: 140px;
+}
+
+.sidebar-nav li {
+    font-size: 5vw;
+    text-indent: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #5e5e5e;
+    padding: 8px 0 8px 0;
+    margin: 0 10px 0 10px;
+    white-space: nowrap;
+}
+
+.sidebar-nav li:last-child {
+    border-bottom: none;
+}
+
+.sidebar-nav li a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+.social-media img {
+    opacity: 0.5;
+    height: 40px;
+    width: 40px;
+    margin: 8px 0;
+}
+
+.social-media a:nth-child(2) {
+    margin: 0 5px;
+}
+
+@media (min-width: 390px) {
+    .sidebar-nav li {
+        font-size: 3.5vw;
+    }
+}
