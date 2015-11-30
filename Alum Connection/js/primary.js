@@ -1,7 +1,22 @@
+$(document).ready(function(){
+    if (($(window).width() > 800) || ($(window).height() > 1280)) {
+        document.location = "http://www.southeastern.edu/alumni_donors/alumni_assoc/";
+    }
+});
+
 window.addEventListener('load', function() {
     new FastClick(document.body);
 }, false);
 
+function testOrientation() {
+    if(window.innerWidth > window.innerHeight){
+        $("#wrapper").addClass("hidden");
+        $("#landscape-modal").removeClass("hidden");
+    } else {
+        $("#wrapper").removeClass("hidden");
+        $("#landscape-modal").addClass("hidden");
+    }
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 // BOTTOM NAVBAR

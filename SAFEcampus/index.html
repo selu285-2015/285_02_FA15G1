@@ -16,10 +16,17 @@
 
 
 </head>
-<body>
+<body onorientationchange="testOrientation();" onload="testOrientation();">
     <script type='application/javascript' src='js/fastclick.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+    <div id="landscape-modal" class="hidden">
+        <p>
+            <i class="fa fa-undo"></i>
+            <i class="fa fa-repeat"></i>
+            <br/>Please rotate your device.
+        </p>
+    </div>
 
     <!-- Wrapper for entire Page -->
     <div id="wrapper">
@@ -192,7 +199,7 @@
         <div class="veil hidden"></div>
 
         <div id="webview-wrapper">
-            <!--<div class="load-content">
+<!--            <div class="load-content">
                 <img src="assets/cross.png" style="height:175px; width: 175px;">
                 <p style="padding-top: 10px; font-weight: 600; color: #6d6e71; font-size: 2.4em;"><span style="font-weight: 800; color: #231f20;">SAFE</span>campus</p>
             </div>-->

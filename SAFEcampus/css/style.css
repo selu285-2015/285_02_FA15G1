@@ -1,5 +1,6 @@
 html, body {
     font-family: "Myriad Pro", "Open Sans", arial, Helvetica;
+    height: 100%;
 }
 
 .container {
@@ -90,7 +91,6 @@ html, body {
 }
 
 #grid-button-wrapper a {
-
     color: #10803E;
 }
 
@@ -112,7 +112,7 @@ html, body {
 }
 
 #bottom-navbar {
-    z-index: 999;
+    z-index: 989;
 }
 
 iframe {
@@ -124,6 +124,35 @@ iframe {
 .hidden {
     display: none;
 }
+
+#landscape-modal {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(150,150,150, 0.6);
+    border-radius: 30px;
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+    z-index: 1000;
+    box-shadow: 5px 5px 10px #dddddd;
+}
+
+#landscape-modal p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 5vw;
+    text-align: center;
+}
+#landscape-modal p i {
+    font-size: 10vw;
+    padding: 0 20px;
+}
+
+
+
 
 @media screen and (max-height: 1280px) {
     .col-lg-4 {
@@ -146,3 +175,4 @@ iframe {
         height: 10vh;
     }
 }
+

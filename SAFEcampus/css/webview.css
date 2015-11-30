@@ -13,7 +13,7 @@
 #webview-iframe {
     width: 100%;
     height: 100vh;
-    z-index: 999;
+    z-index: 989;
     margin-botom: 62px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .loader {
-    z-index: 1000;
+    z-index: 990;
     position: fixed;
     top: 0;
     bottom: 0;
