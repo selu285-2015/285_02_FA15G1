@@ -128,7 +128,8 @@ iframe {
     color: inherit;
 }
 
-#landscape-modal {
+/* Landscape Message works for iOS but not for Android */
+/*#landscape-modal {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -152,7 +153,7 @@ iframe {
 #landscape-modal p i {
     font-size: 10vw;
     padding: 0 20px;
-}
+}*/
 
 
 @media (max-height: 567px) {

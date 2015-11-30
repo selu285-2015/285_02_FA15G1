@@ -8,7 +8,8 @@ window.addEventListener('load', function() {
     new FastClick(document.body);
 }, false);
 
-function testOrientation() {
+// Landscape Message works for iOS but not for Android
+/*function testOrientation() {
     if(window.innerWidth > window.innerHeight){
         $("#wrapper").addClass("hidden");
         $("#landscape-modal").removeClass("hidden");
@@ -16,7 +17,7 @@ function testOrientation() {
         $("#wrapper").removeClass("hidden");
         $("#landscape-modal").addClass("hidden");
     }
-}
+}*/
 
 ////////////////////////////////////////////////////////////////////////////////
 // BOTTOM NAVBAR
